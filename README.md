@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Apple Developer Academy - Links:</b><br>
+  <b>Apple Developer Academy</b><br>
   <a href="#">Google Drive</a> |
   <a href="#">Trello</a> |
   <a href="#">Discord</a>
