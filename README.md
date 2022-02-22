@@ -1,7 +1,7 @@
 # Apple-Developer-Academy
 Repositório restrito às equipes da academia de desenvolvedores da apple
 
-<p align="center">
+<center>
 
 ```                                                                                                                                   
                         .8 
@@ -30,4 +30,3 @@ Repositório restrito às equipes da academia de desenvolvedores da apple
          `#########''########'
            `""""""'  `"""""'
 ```
-</p>
