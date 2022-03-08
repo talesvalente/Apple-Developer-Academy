@@ -7,6 +7,8 @@
 
 import Foundation
 
+let cicero = Cicero()
+
 print("Menu")
 
 print("Ola, selecione um dos programas a seguir:\n1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah")
@@ -15,7 +17,7 @@ let opcao = readLine()
 
 switch opcao{
 case "1":
-    print("Cicero app")
+    cicero.app()
 case "2":
     print("Tales app")
     
