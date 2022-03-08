@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  SimuleAi
+//  main
 //
 //  Created by Tales Valente on 08/03/22.
 //
