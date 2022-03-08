@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		851EE67127D77CEF00664A06 /* iValente */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iValente; sourceTree = BUILT_PRODUCTS_DIR; };
+		851EE67127D77CEF00664A06 /* CLB-VALENTE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CLB-VALENTE"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851EE67427D77CEF00664A06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		851EE67227D77CEF00664A06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				851EE67127D77CEF00664A06 /* iValente */,
+				851EE67127D77CEF00664A06 /* CLB-VALENTE */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		851EE67027D77CEF00664A06 /* iValente */ = {
+		851EE67027D77CEF00664A06 /* CLB-VALENTE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 851EE67827D77CEF00664A06 /* Build configuration list for PBXNativeTarget "iValente" */;
+			buildConfigurationList = 851EE67827D77CEF00664A06 /* Build configuration list for PBXNativeTarget "CLB-VALENTE" */;
 			buildPhases = (
 				851EE66D27D77CEF00664A06 /* Sources */,
 				851EE66E27D77CEF00664A06 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = iValente;
+			name = "CLB-VALENTE";
 			productName = iValente;
-			productReference = 851EE67127D77CEF00664A06 /* iValente */;
+			productReference = 851EE67127D77CEF00664A06 /* CLB-VALENTE */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 851EE66C27D77CEF00664A06 /* Build configuration list for PBXProject "iValente" */;
+			buildConfigurationList = 851EE66C27D77CEF00664A06 /* Build configuration list for PBXProject "CLB-VALENTE" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				851EE67027D77CEF00664A06 /* iValente */,
+				851EE67027D77CEF00664A06 /* CLB-VALENTE */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		851EE66C27D77CEF00664A06 /* Build configuration list for PBXProject "iValente" */ = {
+		851EE66C27D77CEF00664A06 /* Build configuration list for PBXProject "CLB-VALENTE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				851EE67627D77CEF00664A06 /* Debug */,
@@ -272,7 +272,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		851EE67827D77CEF00664A06 /* Build configuration list for PBXNativeTarget "iValente" */ = {
+		851EE67827D77CEF00664A06 /* Build configuration list for PBXNativeTarget "CLB-VALENTE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				851EE67927D77CEF00664A06 /* Debug */,
