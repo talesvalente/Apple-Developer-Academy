@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		282849A727D77DD6002F6C2B /* CBL - HANAH */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CBL - HANAH"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282849A727D77DD6002F6C2B /* CBL-HANAH */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CBL-HANAH"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282849AA27D77DD6002F6C2B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		2828499E27D77DD6002F6C2B = {
 			isa = PBXGroup;
 			children = (
-				282849A927D77DD6002F6C2B /* CBL - HANAH */,
+				282849A927D77DD6002F6C2B /* CBL-HANAH */,
 				282849A827D77DD6002F6C2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		282849A827D77DD6002F6C2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				282849A727D77DD6002F6C2B /* CBL - HANAH */,
+				282849A727D77DD6002F6C2B /* CBL-HANAH */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		282849A927D77DD6002F6C2B /* CBL - HANAH */ = {
+		282849A927D77DD6002F6C2B /* CBL-HANAH */ = {
 			isa = PBXGroup;
 			children = (
 				282849AA27D77DD6002F6C2B /* main.swift */,
 			);
-			path = "CBL - HANAH";
+			path = "CBL-HANAH";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		282849A627D77DD6002F6C2B /* CBL - HANAH */ = {
+		282849A627D77DD6002F6C2B /* CBL-HANAH */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 282849AE27D77DD6002F6C2B /* Build configuration list for PBXNativeTarget "CBL - HANAH" */;
+			buildConfigurationList = 282849AE27D77DD6002F6C2B /* Build configuration list for PBXNativeTarget "CBL-HANAH" */;
 			buildPhases = (
 				282849A327D77DD6002F6C2B /* Sources */,
 				282849A427D77DD6002F6C2B /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "CBL - HANAH";
+			name = "CBL-HANAH";
 			productName = "CBL - HANAH";
-			productReference = 282849A727D77DD6002F6C2B /* CBL - HANAH */;
+			productReference = 282849A727D77DD6002F6C2B /* CBL-HANAH */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 282849A227D77DD6002F6C2B /* Build configuration list for PBXProject "CBL - HANAH" */;
+			buildConfigurationList = 282849A227D77DD6002F6C2B /* Build configuration list for PBXProject "CBL-HANAH" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				282849A627D77DD6002F6C2B /* CBL - HANAH */,
+				282849A627D77DD6002F6C2B /* CBL-HANAH */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		282849A227D77DD6002F6C2B /* Build configuration list for PBXProject "CBL - HANAH" */ = {
+		282849A227D77DD6002F6C2B /* Build configuration list for PBXProject "CBL-HANAH" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				282849AC27D77DD6002F6C2B /* Debug */,
@@ -272,7 +272,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		282849AE27D77DD6002F6C2B /* Build configuration list for PBXNativeTarget "CBL - HANAH" */ = {
+		282849AE27D77DD6002F6C2B /* Build configuration list for PBXNativeTarget "CBL-HANAH" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				282849AF27D77DD6002F6C2B /* Debug */,
