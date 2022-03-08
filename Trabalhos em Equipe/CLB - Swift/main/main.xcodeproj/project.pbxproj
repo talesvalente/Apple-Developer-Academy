@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30754D27D787CA00FC1CCA /* luciana.swift */; };
 		851EE69B27D7819900664A06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851EE69A27D7819900664A06 /* main.swift */; };
 		DDB7287D27D7866800771A33 /* cicero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7287C27D7866800771A33 /* cicero.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E30754D27D787CA00FC1CCA /* luciana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luciana.swift; sourceTree = "<group>"; };
 		851EE69727D7819900664A06 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
 		851EE69A27D7819900664A06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DDB7287C27D7866800771A33 /* cicero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cicero.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E30754C27D787BB00FC1CCA /* LUCIANA */ = {
+			isa = PBXGroup;
+			children = (
+				7E30754D27D787CA00FC1CCA /* luciana.swift */,
+			);
+			path = LUCIANA;
+			sourceTree = "<group>";
+		};
 		851EE68E27D7819900664A06 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		DDB7287A27D7864100771A33 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				7E30754C27D787BB00FC1CCA /* LUCIANA */,
 				DDB7287B27D7865D00771A33 /* CICERO */,
 			);
 			path = src;
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB7287D27D7866800771A33 /* cicero.swift in Sources */,
+				7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */,
 				851EE69B27D7819900664A06 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
