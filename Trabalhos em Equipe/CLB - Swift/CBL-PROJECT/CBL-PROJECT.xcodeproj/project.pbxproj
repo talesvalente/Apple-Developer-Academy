@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30754D27D787CA00FC1CCA /* luciana.swift */; };
 		851EE69B27D7819900664A06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851EE69A27D7819900664A06 /* main.swift */; };
+		85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271827D78A0E00F2F9F2 /* valente.swift */; };
 		DDB7287D27D7866800771A33 /* cicero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7287C27D7866800771A33 /* cicero.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +27,9 @@
 
 /* Begin PBXFileReference section */
 		7E30754D27D787CA00FC1CCA /* luciana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luciana.swift; sourceTree = "<group>"; };
-		851EE69727D7819900664A06 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		851EE69727D7819900664A06 /* CBL-PROJECT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CBL-PROJECT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851EE69A27D7819900664A06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		85F2271827D78A0E00F2F9F2 /* valente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valente.swift; sourceTree = "<group>"; };
 		DDB7287C27D7866800771A33 /* cicero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cicero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +64,7 @@
 		851EE69827D7819900664A06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				851EE69727D7819900664A06 /* main */,
+				851EE69727D7819900664A06 /* CBL-PROJECT */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +77,18 @@
 			path = main;
 			sourceTree = "<group>";
 		};
+		85F2271727D789F800F2F9F2 /* VALENTE */ = {
+			isa = PBXGroup;
+			children = (
+				85F2271827D78A0E00F2F9F2 /* valente.swift */,
+			);
+			path = VALENTE;
+			sourceTree = "<group>";
+		};
 		DDB7287A27D7864100771A33 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				85F2271727D789F800F2F9F2 /* VALENTE */,
 				7E30754C27D787BB00FC1CCA /* LUCIANA */,
 				DDB7287B27D7865D00771A33 /* CICERO */,
 			);
@@ -95,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		851EE69627D7819900664A06 /* main */ = {
+		851EE69627D7819900664A06 /* CBL-PROJECT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 851EE69E27D7819900664A06 /* Build configuration list for PBXNativeTarget "main" */;
+			buildConfigurationList = 851EE69E27D7819900664A06 /* Build configuration list for PBXNativeTarget "CBL-PROJECT" */;
 			buildPhases = (
 				851EE69327D7819900664A06 /* Sources */,
 				851EE69427D7819900664A06 /* Frameworks */,
@@ -107,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = main;
+			name = "CBL-PROJECT";
 			productName = main;
-			productReference = 851EE69727D7819900664A06 /* main */;
+			productReference = 851EE69727D7819900664A06 /* CBL-PROJECT */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 851EE69227D7819900664A06 /* Build configuration list for PBXProject "main" */;
+			buildConfigurationList = 851EE69227D7819900664A06 /* Build configuration list for PBXProject "CBL-PROJECT" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				851EE69627D7819900664A06 /* main */,
+				851EE69627D7819900664A06 /* CBL-PROJECT */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +164,7 @@
 				DDB7287D27D7866800771A33 /* cicero.swift in Sources */,
 				7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */,
 				851EE69B27D7819900664A06 /* main.swift in Sources */,
+				85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		851EE69227D7819900664A06 /* Build configuration list for PBXProject "main" */ = {
+		851EE69227D7819900664A06 /* Build configuration list for PBXProject "CBL-PROJECT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				851EE69C27D7819900664A06 /* Debug */,
@@ -304,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		851EE69E27D7819900664A06 /* Build configuration list for PBXNativeTarget "main" */ = {
+		851EE69E27D7819900664A06 /* Build configuration list for PBXNativeTarget "CBL-PROJECT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				851EE69F27D7819900664A06 /* Debug */,
