@@ -10,6 +10,8 @@
 		7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30754D27D787CA00FC1CCA /* luciana.swift */; };
 		851EE69B27D7819900664A06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851EE69A27D7819900664A06 /* main.swift */; };
 		85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271827D78A0E00F2F9F2 /* valente.swift */; };
+		85F2271D27D7A23300F2F9F2 /* jamile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271C27D7A23300F2F9F2 /* jamile.swift */; };
+		85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271F27D7A25D00F2F9F2 /* hanah.swift */; };
 		DDB7287D27D7866800771A33 /* cicero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7287C27D7866800771A33 /* cicero.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		851EE69727D7819900664A06 /* CBL-PROJECT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CBL-PROJECT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851EE69A27D7819900664A06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		85F2271827D78A0E00F2F9F2 /* valente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valente.swift; sourceTree = "<group>"; };
+		85F2271C27D7A23300F2F9F2 /* jamile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamile.swift; sourceTree = "<group>"; };
+		85F2271F27D7A25D00F2F9F2 /* hanah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanah.swift; sourceTree = "<group>"; };
 		DDB7287C27D7866800771A33 /* cicero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cicero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,9 +89,27 @@
 			path = VALENTE;
 			sourceTree = "<group>";
 		};
+		85F2271B27D7A22000F2F9F2 /* JAMILE */ = {
+			isa = PBXGroup;
+			children = (
+				85F2271C27D7A23300F2F9F2 /* jamile.swift */,
+			);
+			path = JAMILE;
+			sourceTree = "<group>";
+		};
+		85F2271E27D7A23900F2F9F2 /* HANAH */ = {
+			isa = PBXGroup;
+			children = (
+				85F2271F27D7A25D00F2F9F2 /* hanah.swift */,
+			);
+			path = HANAH;
+			sourceTree = "<group>";
+		};
 		DDB7287A27D7864100771A33 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				85F2271E27D7A23900F2F9F2 /* HANAH */,
+				85F2271B27D7A22000F2F9F2 /* JAMILE */,
 				85F2271727D789F800F2F9F2 /* VALENTE */,
 				7E30754C27D787BB00FC1CCA /* LUCIANA */,
 				DDB7287B27D7865D00771A33 /* CICERO */,
@@ -161,7 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F2271D27D7A23300F2F9F2 /* jamile.swift in Sources */,
 				DDB7287D27D7866800771A33 /* cicero.swift in Sources */,
+				85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */,
 				7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */,
 				851EE69B27D7819900664A06 /* main.swift in Sources */,
 				85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */,
