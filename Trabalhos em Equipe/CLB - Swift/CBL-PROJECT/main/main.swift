@@ -11,27 +11,26 @@ let cicero = Cicero()
 
 print("Menu")
 
-print("Ola, selecione um dos programas a seguir:\n1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah")
+print("Ola, selecione um dos programas a seguir:\n1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah\n")
 
 let opcao = readLine()
 
 switch opcao{
-case "1":
-    cicero.app()
-case "2":
-    print("Tales app")
-    
-case "3":
-    print("Luciana app")
+    case "1":
+        cicero.app()
+    case "2":
+        iValente()
+    case "3":
+        print("Luciana app")
 
-case "4":
-    print("Jamile app")
-    
-case "5":
-    print("Hanah app")
-    
-default:
-    print("Digite uma das opçoes acima!")
+    case "4":
+        print("Jamile app")
+        
+    case "5":
+        print("Hanah app")
+        
+    default:
+        print("Digite uma das opçoes acima!")
     
 }
 
