@@ -9,12 +9,13 @@ import Foundation
 
 let cicero = Cicero()
 
-print("Menu")
-
-print("Ola, selecione um dos programas a seguir:\n1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah\n")
-
+print("[INTEGRADOR CBL-CHALLENGE SWIFT]\n")
+print("Olá, selecione um dos programas a seguir digitando seu número.")
+print("1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah")
+print("Opção selecionada: ", terminator: "")
 let opcao = readLine()
 
+//TODO: SYSTEM CLEAR
 switch opcao{
     case "1":
         cicero.app()

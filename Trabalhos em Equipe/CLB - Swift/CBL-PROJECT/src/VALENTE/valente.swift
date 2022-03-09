@@ -20,15 +20,15 @@ func iValente() {
     let pHiperC = [3.94, 5.34, 5.95, 6.55, 7.14, 7.73, 8.79, 9.37, 9.94, 10.51]         //Taxa Cradito
     
     print ("Seja bem vindo ao simulador de vendas real.")
-    print ("\nInforme quanto você quer receber: ")
+    print("\nInforme quanto você quer receber: ", terminator: "")
     let valorReceber = readLine()
     
     //TODO: VERIFICAR LIMITE INSERIDO ATE 12X
-    print ("\nInforme a quantidade de parcelas que seu cliente deseja: ")
+    print ("\nInforme a quantidade de parcelas que seu cliente deseja: ", terminator: "")
     let qntParcela = readLine()
-    
-    print ("\nInforme a bandeira do cartão:")
-    print ("1 - Elo \n2 - Visa\n3 - Master\n4 - Hiper\n")
+   
+    print ("1 - Elo | 2 - Visa | 3 - Master | 4 - Hiper\n")
+    print ("\nInforme a bandeira do cartão:", terminator: "")
     let bandeiraCartao = readLine()
     
     //TODO: REALIZAR CALCULOS DE VENDA
