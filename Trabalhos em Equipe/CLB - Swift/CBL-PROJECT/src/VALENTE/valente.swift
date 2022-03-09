@@ -7,6 +7,7 @@
 
 import Foundation
 func iValente() {
+   print("\n\n")
     //Inicilização das variaveis
     //Arrays com o valor das taxas de juros por parcela 1x,2x,3x...12x
     
@@ -20,18 +21,64 @@ func iValente() {
     let pHiperC = [3.94, 5.34, 5.95, 6.55, 7.14, 7.73, 8.79, 9.37, 9.94, 10.51]         //Taxa Cradito
     
     print ("Seja bem vindo ao simulador de vendas real.")
-    print("\nInforme quanto você quer receber: ", terminator: "")
-    let valorReceber = readLine()
+    
+    print ("Informe quanto você quer receber: ", terminator: "")
+    let valorReceber: String? = readLine()
+    
+    let vReceber = Int(valorReceber!)
+    if (vReceber! <= 0) {
+        print ("Voce precisa digitar um valor maior que zero")
+    }
+    /*
+     teste:
+    if let input = readLine() {
+        if let number = Int(input) {
+            let result = number * number
+            print("You entered \(number)")
+            print("Its square = \(result)")
+        } else {
+     goto teste
+     }
+    }*/
+    
+    if let input = readLine(), let number = Int(input) {
+        let result = number * number
+        print("You entered \(number)")
+        print("Its square = \(result)")
+    }
+    
+    guard let input = readLine(), let number = Int(input) else {
+        fatalError("usage: script --option <arg>")
+    }
+    
+    switch number {
+    case 1:
+        
+    }
+    
     
     //TODO: VERIFICAR LIMITE INSERIDO ATE 12X
-    print ("\nInforme a quantidade de parcelas que seu cliente deseja: ", terminator: "")
+    print ("Informe a quantidade de parcelas que seu cliente deseja: ", terminator: "")
     let qntParcela = readLine()
    
-    print ("1 - Elo | 2 - Visa | 3 - Master | 4 - Hiper\n")
-    print ("\nInforme a bandeira do cartão:", terminator: "")
+    print ("\n| 1 - Elo | 2 - Visa | 3 - Master | 4 - Hiper |")
+    print ("Informe a bandeira do cartão: ", terminator: "")
     let bandeiraCartao = readLine()
     
     //TODO: REALIZAR CALCULOS DE VENDA
     //TODO: MOSTRAR RESULTADOS PRO CLIENTE/USUARIOS
     
 }
+
+
+/*/*
+   print("Enter a number (x) : ", terminator: "")
+   if let input = readLine() {
+       if let number = Int(input) {
+           let result = number * number
+           print("You entered \(number)")
+           print("Its square = \(result)")
+       }
+   }
+   */
+*/
