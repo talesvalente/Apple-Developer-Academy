@@ -34,4 +34,3 @@ switch opcao{
         print("Digite uma das opçoes acima!")
     
 }
-
