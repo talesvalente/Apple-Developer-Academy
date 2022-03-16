@@ -13,12 +13,72 @@ func iValente() {
     
     var i            = 0
     var j            = 0
-    var valorVenda   = 0
+    var valorVenda: Double   = 0.00
     let taxasCartao  = [2.89, 4.44, 5.05, 5.66, 6.26, 6.85, 8.01, 8.59, 9.17, 9.74, 10.31, 10.87]
+    var valorReceber:  Double?  = 0
+    var tipoCartao:    Int?  = 0
+    var qntParcelas:   Int?  = 0
+    var bandeiraCartao: Int? = 0
+    var valorParcela: Int? = 0
+
     
-    print("Entre com o valor que voce deseja receber: ", terminator: "")
-    let input  = readLine()
-    let valorReceber = Int(input!)
+    while (true) {
+        print ("Informe o valor que você deseja receber: ", terminator: "")
+        let input = readLine()
+        valorReceber = Double(input!)
+        
+        //TODO: OTIMIZAR ESTE VERIFICADOR
+        if (valorReceber == nil || valorReceber! <= 0) {
+            print ("\n[AVISO] Você precisa entrar com algum valor para efetivar a venda.")
+        }
+        else { break }
+    }
+    
+    while(true) {
+        print ("\n| 1 - Elo | 2 - Visa | 3 - Master | 4 - Hiper |")
+        print ("Informe a bandeira do cartão: ", terminator: "")
+        let input = readLine()
+        bandeiraCartao = Int(input!)
+        
+        if (bandeiraCartao == nil || bandeiraCartao! <= 0 || bandeiraCartao! > 4) {
+            print ("\n[AVISO] Você precisa informar qual a bandeira do seu cartão.")
+        }
+        else { break }
+    }
+    
+    while (true) {
+        print ("\n| 1 - Débito | 2 - Crédito |")
+        print ("A venda será no debito ou no crédito? Informe: ", terminator: "")
+        let input = readLine()
+        tipoCartao = Int(input!)
+        
+        if (tipoCartao == nil || tipoCartao! <= 0 || tipoCartao! > 2) {
+            print ("\n[AVISO] Você precisa especificar o tipo do seu cartão.")
+        }
+        else { break }
+    }
+    
+    while(true) {
+        print ("\nInforme a quantidade de parcelas que seu cliente deseja: ", terminator: "")
+        let input = readLine()
+        qntParcelas = Int(input!)
+        
+        if (qntParcelas == nil || qntParcelas! <= 0 || qntParcelas! > 12) {
+            print ("\n[AVISO] Você precisa entrar com a quantidade de parcela (max 12)")
+        }
+        else { break }
+    }
+
+
+    
+    valorVenda = valorReceber! + valorReceber! * taxasCartao[qntParcelas!] / 100
+    
+    print("\n \n")
+    print("Valor a receber: ", valorReceber!)
+    print("Por quanto você deve vender: ", valorVenda)
+    print("Quantidade de parcelas escolhida pelo cliente: ", qntParcelas!)
+    print("Valor da Parcela: ",valorParcela!)
+    print("Taxa do Cartão: ",taxasCartao[qntParcelas!])
     
     //EXCLAÇÃO SIGNIFICA QUE EXISTE UM VALOR ALI DENTRO
     //print("O input: ", valorReceber!) //Se for vazio o valor será 0
