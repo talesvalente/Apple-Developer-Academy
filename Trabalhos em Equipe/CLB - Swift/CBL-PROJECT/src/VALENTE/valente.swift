@@ -7,6 +7,27 @@
 
 import Foundation
 func iValente() {
+    
+    print("\n\n")
+    print("Bem-vindo ao programa básico")
+    
+    var i            = 0
+    var j            = 0
+    var valorVenda   = 0
+    let taxasCartao  = [2.89, 4.44, 5.05, 5.66, 6.26, 6.85, 8.01, 8.59, 9.17, 9.74, 10.31, 10.87]
+    
+    print("Entre com o valor que voce deseja receber: ", terminator: "")
+    let input  = readLine()
+    let valorReceber = Int(input!)
+    
+    //EXCLAÇÃO SIGNIFICA QUE EXISTE UM VALOR ALI DENTRO
+    //print("O input: ", valorReceber!) //Se for vazio o valor será 0
+    //print ("Teste Matriz: ", taxasCartao[valorReceber!])
+     
+    //let soma: Int = (intWeight! + intHeight!) // SOMA DE OPERANDOS
+}
+    // COMENTAR DEPOIS DESSA LINHA
+    /*
    print("\n\n")
     //Inicilização das variaveis
     //var i = true
@@ -25,6 +46,7 @@ func iValente() {
     var intVR: Int? //ValorReceber: Por que ?
     var intQP: Int? //QuantidadeParcela: Por que ?
     var intBC: Int? //BandeiraCartao: Por que?
+    var intTC: Int? //Tipo do cartao
     
     //Início dos Argumentos de Usuário
     print ("Seja bem vindo ao simulador de vendas real.")
@@ -41,11 +63,21 @@ func iValente() {
         
         //TODO: OTIMIZAR ESTE VERIFICADOR
         if (intVR == nil || intVR! <= 0) {
-            print ("Você precisa entrar com algum valor para efetivar a venda.")
+            print ("\n[AVISO] Você precisa entrar com algum valor para efetivar a venda.")
         }
         else { break }
     }
     
+    while (true) {
+        print ("\n| 1 - Débito | 2 - Crédito")
+        print ("A venda será no debito ou no crédito? Informe: ", terminator: "")
+        let tipoCartao = readLine()
+        intTC = Int(tipoCartao!)
+        if (intTC == nil || intTC! <= 0 || intTC! > 2) {
+            print ("\n[AVISO] Você precisa especificar o tipo do seu cartão.")
+        }
+        else { break }
+    }
     //LAÇO FORÇADOR
     //OBRIGA O USUARIO A ENTRAR COM A QUANTIDAD DE PARCELAS (LIMITE 12)
     while(true) {
@@ -54,7 +86,7 @@ func iValente() {
         intQP = Int(qntParcela!)
         
         if (intQP == nil || intQP! <= 0 || intQP! > 12) {
-            print ("Você precisa entrar com a quantidade de parcela (max 12)")
+            print ("\n[AVISO] Você precisa entrar com a quantidade de parcela (max 12)")
         }
         else { break }
     }
@@ -67,19 +99,18 @@ func iValente() {
         let bandeiraCartao = readLine()
         intBC = Int(bandeiraCartao!)
         
-        if (intQP == nil || intQP! <= 0 || intQP! > 12) {
-            print ("Você precisa informar qual a bandeira do seu cartão.")
+        if (intBC == nil || intBC! <= 0 || intBC! > 4) {
+            print ("\n[AVISO] Você precisa informar qual a bandeira do seu cartão.")
         }
         else { break }
     }
-    
-    
-    
+    //TODO: verificiar possibilidade de uso de Estrutura ou Chamada de Função
+    //Pelo amor de deus, simplifique esse código
+}
     
     //TODO: REALIZAR CALCULOS DE VENDA
     //TODO: MOSTRAR RESULTADOS PRO CLIENTE/USUARIOS
     
-}
 
 
 /*
@@ -129,12 +160,7 @@ func iValente() {
        }
    }
    */
-*/
 
-
-
-
-/*
  teste:
 if let input = readLine() {
     if let number = Int(input) {
@@ -151,5 +177,6 @@ if let input = readLine(), let number = Int(input) {
     print("You entered \(number)")
     print("Its square = \(result)")
 }
-pHiperC[i]
- */
+pHiperC[i
+ 
+ /**/*/*/
