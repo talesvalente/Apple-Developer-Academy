@@ -23,7 +23,7 @@ func iValente() {
     let failSafe: Double? = 1.00
 
     var valorVenda: Double   = 0.00
-    var valorReceber:   Double?  = 0
+    var valorReceber:   Double?  = 0.00
     var tipoCartao:     Int?  = 0
     var qntParcelas:    Int?  = 0
     var bandeiraCartao: Int? = 0
@@ -141,11 +141,11 @@ func iValente() {
     
     print("\n \n")
     print("[RELATÓRIO DE VENDAS]")
-    print("Valor a receber: R$", valorReceber!)
-    print("Por quanto você deve vender: R$", valorVenda)
+    print(String(format: "Valor a receber: R$%.2f",valorReceber!))
+    print(String(format: "Por quanto você deve vender: R$%.2f",valorVenda))
     print("Quantidade de parcelas escolhida pelo cliente: ", qntParcelas!+1)
     print(String(format: "Valor da Parcela: R$%.2f", valorParcela!))
-    print("Taxa do Cartão: %", juros!)
+    print("Taxa do Cartão: \(juros!)%")
     
     
 }
