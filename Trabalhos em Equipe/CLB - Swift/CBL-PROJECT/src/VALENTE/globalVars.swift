@@ -28,3 +28,5 @@ var bandeiraCartao: Int?    = 0
 var valorParcela:   Double? = 0.00
 var juros:          Double? = 0.00
 var input:          String? = ""
+var operacao:       String? = ""
+var bandeira:       String? = ""

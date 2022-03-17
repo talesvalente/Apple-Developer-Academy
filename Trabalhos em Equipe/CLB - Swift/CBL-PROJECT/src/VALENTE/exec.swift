@@ -6,9 +6,9 @@
 //
 
 import Foundation
-//func iDebug(_ code: Int) {
-func exec(_ valorReceber: Double,_ bandeiraCartao: Int,_ tipoCartao: Int,_ qntParcelas: Int) {
-    //Início do Programa
+
+func exec() {
+//Início do Programa
     if (useDebug == true) { iDebug(1) }
     while (true) {
         print ("Informe o valor que você deseja receber: ", terminator: "")
