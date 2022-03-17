@@ -7,8 +7,6 @@
 
 import Foundation
 
-let cicero = Cicero()
-
 print("[INTEGRADOR CBL-CHALLENGE SWIFT]\n")
 print("Olá, selecione um dos programas a seguir digitando seu número.")
 print("1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah")
@@ -18,7 +16,7 @@ let opcao = readLine()
 //TODO: SYSTEM CLEAR
 switch opcao{
     case "1":
-        cicero.app()
+        print("Cicero")
     case "2":
         iValente()
     case "3":
