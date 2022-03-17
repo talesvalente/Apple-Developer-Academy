@@ -27,7 +27,7 @@ func iWarning(_ code: Int) {
     
     if (code == 3) { stringArgs = "\n[AVISO 003] Você precisa especificar o tipo do seu cartão." }
     
-    if (code == 4) { stringArgs = "\n[AVISO 004] Cartão Hiper não possui função debito. Tipo de cartao definido para Credito. \nTecle Enter para Continuar..." }
+    if (code == 4) { stringArgs = "\n[AVISO 004] Cartão Hiper não possui função debito. Tipo de cartao será definido para Credito. \nTecle Enter para Continuar..." }
     
     if (code == 5) { stringArgs = "\n[AVISO 005] Você precisa entrar com a quantidade de parcela (max 12)" }
     

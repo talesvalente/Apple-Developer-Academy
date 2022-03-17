@@ -31,15 +31,19 @@ func iValente() {
     }
 
     while(true) {
-        print ("\nInforme a bandeira do cartão (1 - Elo / 2 - Visa & Master / 3 - Hiper): ", terminator: "")
+        print ("\nInforme a bandeira do cartão (1 - Elo / 2 - Visa & Master / 3 - Hiper & Hipercard): ", terminator: "")
         let input = readLine()
         bandeiraCartao = Int(input!)
         
         if (bandeiraCartao == nil || bandeiraCartao! <= 0 || bandeiraCartao! > 3) {iWarning(2)}
-        if (bandeiraCartao == 1) {bandeira = "Elo"}
-        if (bandeiraCartao == 2) {bandeira = "Visa & Master"}
-        if (bandeiraCartao == 3) {bandeira = "Hiper & Hipercard"}
-        else { break }
+
+        else {
+            if (bandeiraCartao == 1) {bandeira = "Elo"}
+            if (bandeiraCartao == 2) {bandeira = "Visa & Master"}
+            if (bandeiraCartao == 3) {bandeira = "Hiper & Hipercard"}
+            break
+            
+        }
     }
 
     while (true) {
