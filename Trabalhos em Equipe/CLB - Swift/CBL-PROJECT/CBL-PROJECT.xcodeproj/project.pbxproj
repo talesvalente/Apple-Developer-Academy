@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30754D27D787CA00FC1CCA /* luciana.swift */; };
 		851EE69B27D7819900664A06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851EE69A27D7819900664A06 /* main.swift */; };
+		85A6BE7827EB57C60003197A /* conversor in Frameworks */ = {isa = PBXBuildFile; productRef = 85A6BE7727EB57C60003197A /* conversor */; };
 		85ADDA7D27E3A6F800E34B9D /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ADDA7C27E3A6F800E34B9D /* functions.swift */; };
 		85ADDA8127E3B92400E34B9D /* globalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ADDA8027E3B92400E34B9D /* globalVars.swift */; };
 		85F2271927D78A0E00F2F9F2 /* iValente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271827D78A0E00F2F9F2 /* iValente.swift */; };
@@ -46,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A6BE7827EB57C60003197A /* conversor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +68,7 @@
 				DDB7287A27D7864100771A33 /* src */,
 				851EE69927D7819900664A06 /* main */,
 				851EE69827D7819900664A06 /* Products */,
+				85A6BE6E27EB54C50003197A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +86,13 @@
 				851EE69A27D7819900664A06 /* main.swift */,
 			);
 			path = main;
+			sourceTree = "<group>";
+		};
+		85A6BE6E27EB54C50003197A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		85F2271727D789F800F2F9F2 /* VALENTE */ = {
@@ -147,6 +157,9 @@
 			dependencies = (
 			);
 			name = "CBL-PROJECT";
+			packageProductDependencies = (
+				85A6BE7727EB57C60003197A /* conversor */,
+			);
 			productName = main;
 			productReference = 851EE69727D7819900664A06 /* CBL-PROJECT */;
 			productType = "com.apple.product-type.tool";
@@ -175,6 +188,9 @@
 				Base,
 			);
 			mainGroup = 851EE68E27D7819900664A06;
+			packageReferences = (
+				85A6BE7627EB57C60003197A /* XCRemoteSwiftPackageReference "taxCalc" */,
+			);
 			productRefGroup = 851EE69827D7819900664A06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -358,6 +374,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85A6BE7627EB57C60003197A /* XCRemoteSwiftPackageReference "taxCalc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lvasantos/taxCalc.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85A6BE7727EB57C60003197A /* conversor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85A6BE7627EB57C60003197A /* XCRemoteSwiftPackageReference "taxCalc" */;
+			productName = conversor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 851EE68F27D7819900664A06 /* Project object */;
 }

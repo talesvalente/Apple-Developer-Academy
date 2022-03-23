@@ -47,7 +47,7 @@ func iValente() {
     }
 
     while (true) {
-        print ("\nInforme o tipo de operação (1 - Débito / 2 - Crédtio): ", terminator: "")
+        print ("\nInforme o tipo de operação (1 - Débito / 2 - Crédito): ", terminator: "")
         let input = readLine()
         tipoCartao = Int(input!)
         
@@ -60,8 +60,8 @@ func iValente() {
             readLine();
             break;
         } else {
-                if (tipoCartao == 1) { operacao = "Crédido"}
-                if (tipoCartao == 2) { operacao = "Débito"}
+                if (tipoCartao == 1) { operacao = "Débito"}
+                if (tipoCartao == 2) { operacao = "Crédito"}
                 break
         }
     }

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "conversor",
+        "repositoryURL": "https://github.com/lvasantos/taxCalc.git",
+        "state": {
+          "branch": "main",
+          "revision": "c24a9409cb897fd9e8c525b834e4f982438f536c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

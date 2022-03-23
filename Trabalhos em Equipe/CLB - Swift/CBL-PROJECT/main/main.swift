@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import conversor
+let appLuciana = App()
 
 print("[INTEGRADOR CBL-CHALLENGE SWIFT]\n")
 print("Olá, selecione um dos programas a seguir digitando seu número.")
@@ -21,7 +23,7 @@ switch opcao{
         iValente()
     case "3":
         print("Luciana app")
-
+        appLuciana.main()
     case "4":
         print("Jamile app")
         
