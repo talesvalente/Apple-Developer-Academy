@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30754D27D787CA00FC1CCA /* luciana.swift */; };
 		851EE69B27D7819900664A06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851EE69A27D7819900664A06 /* main.swift */; };
-		85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271827D78A0E00F2F9F2 /* valente.swift */; };
+		85A6BE7827EB57C60003197A /* conversor in Frameworks */ = {isa = PBXBuildFile; productRef = 85A6BE7727EB57C60003197A /* conversor */; };
+		85ADDA7D27E3A6F800E34B9D /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ADDA7C27E3A6F800E34B9D /* functions.swift */; };
+		85ADDA8127E3B92400E34B9D /* globalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ADDA8027E3B92400E34B9D /* globalVars.swift */; };
+		85F2271927D78A0E00F2F9F2 /* iValente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271827D78A0E00F2F9F2 /* iValente.swift */; };
+		85F2271D27D7A23300F2F9F2 /* jamile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271C27D7A23300F2F9F2 /* jamile.swift */; };
+		85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271F27D7A25D00F2F9F2 /* hanah.swift */; };
 		DDB7287D27D7866800771A33 /* cicero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7287C27D7866800771A33 /* cicero.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +34,11 @@
 		7E30754D27D787CA00FC1CCA /* luciana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luciana.swift; sourceTree = "<group>"; };
 		851EE69727D7819900664A06 /* CBL-PROJECT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CBL-PROJECT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851EE69A27D7819900664A06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		85F2271827D78A0E00F2F9F2 /* valente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valente.swift; sourceTree = "<group>"; };
+		85ADDA7C27E3A6F800E34B9D /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		85ADDA8027E3B92400E34B9D /* globalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVars.swift; sourceTree = "<group>"; };
+		85F2271827D78A0E00F2F9F2 /* iValente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iValente.swift; sourceTree = "<group>"; };
+		85F2271C27D7A23300F2F9F2 /* jamile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamile.swift; sourceTree = "<group>"; };
+		85F2271F27D7A25D00F2F9F2 /* hanah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanah.swift; sourceTree = "<group>"; };
 		DDB7287C27D7866800771A33 /* cicero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cicero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A6BE7827EB57C60003197A /* conversor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +68,7 @@
 				DDB7287A27D7864100771A33 /* src */,
 				851EE69927D7819900664A06 /* main */,
 				851EE69827D7819900664A06 /* Products */,
+				85A6BE6E27EB54C50003197A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,17 +88,44 @@
 			path = main;
 			sourceTree = "<group>";
 		};
+		85A6BE6E27EB54C50003197A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85F2271727D789F800F2F9F2 /* VALENTE */ = {
 			isa = PBXGroup;
 			children = (
-				85F2271827D78A0E00F2F9F2 /* valente.swift */,
+				85F2271827D78A0E00F2F9F2 /* iValente.swift */,
+				85ADDA7C27E3A6F800E34B9D /* functions.swift */,
+				85ADDA8027E3B92400E34B9D /* globalVars.swift */,
 			);
 			path = VALENTE;
+			sourceTree = "<group>";
+		};
+		85F2271B27D7A22000F2F9F2 /* JAMILE */ = {
+			isa = PBXGroup;
+			children = (
+				85F2271C27D7A23300F2F9F2 /* jamile.swift */,
+			);
+			path = JAMILE;
+			sourceTree = "<group>";
+		};
+		85F2271E27D7A23900F2F9F2 /* HANAH */ = {
+			isa = PBXGroup;
+			children = (
+				85F2271F27D7A25D00F2F9F2 /* hanah.swift */,
+			);
+			path = HANAH;
 			sourceTree = "<group>";
 		};
 		DDB7287A27D7864100771A33 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				85F2271E27D7A23900F2F9F2 /* HANAH */,
+				85F2271B27D7A22000F2F9F2 /* JAMILE */,
 				85F2271727D789F800F2F9F2 /* VALENTE */,
 				7E30754C27D787BB00FC1CCA /* LUCIANA */,
 				DDB7287B27D7865D00771A33 /* CICERO */,
@@ -119,6 +157,9 @@
 			dependencies = (
 			);
 			name = "CBL-PROJECT";
+			packageProductDependencies = (
+				85A6BE7727EB57C60003197A /* conversor */,
+			);
 			productName = main;
 			productReference = 851EE69727D7819900664A06 /* CBL-PROJECT */;
 			productType = "com.apple.product-type.tool";
@@ -147,6 +188,9 @@
 				Base,
 			);
 			mainGroup = 851EE68E27D7819900664A06;
+			packageReferences = (
+				85A6BE7627EB57C60003197A /* XCRemoteSwiftPackageReference "taxCalc" */,
+			);
 			productRefGroup = 851EE69827D7819900664A06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,10 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F2271D27D7A23300F2F9F2 /* jamile.swift in Sources */,
 				DDB7287D27D7866800771A33 /* cicero.swift in Sources */,
+				85ADDA7D27E3A6F800E34B9D /* functions.swift in Sources */,
+				85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */,
+				85ADDA8127E3B92400E34B9D /* globalVars.swift in Sources */,
 				7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */,
 				851EE69B27D7819900664A06 /* main.swift in Sources */,
-				85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */,
+				85F2271927D78A0E00F2F9F2 /* iValente.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85A6BE7627EB57C60003197A /* XCRemoteSwiftPackageReference "taxCalc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lvasantos/taxCalc.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85A6BE7727EB57C60003197A /* conversor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85A6BE7627EB57C60003197A /* XCRemoteSwiftPackageReference "taxCalc" */;
+			productName = conversor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 851EE68F27D7819900664A06 /* Project object */;
 }
