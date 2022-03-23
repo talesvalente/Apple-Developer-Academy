@@ -26,7 +26,7 @@ switch opcao{
 
     case "4":
         print("Jamile app")
-        
+        Jamile()
     case "5":
         print("Hanah app")
         

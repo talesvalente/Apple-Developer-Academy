@@ -82,8 +82,8 @@ func exercitar(){
     currentExercise += 1
 }
 
-
-var menu = """
+func Jamile() {
+    let menu = """
 ***************************
 *    Academia da Jamile   *
 ***************************
@@ -92,23 +92,25 @@ var menu = """
 3 - Visualizar exercicios
 4 - Sair
 """
-//User flow
-//User flow de treinar
-var command = 99
-while command != 4 {
-    print(menu)
-    command = getAnswerInt(for: "Escolha uma opção do menu")
-    //O que é um switch
-    switch command {
-    case 1:
-        createExercise()
-    case 2:
-        printCurrentExercise()
-    case 3:
-        allExercises()
-    case 4:
-        command = 4
-    default:
-        command = 99
+    //User flow
+    //User flow de treinar
+    var command = 99
+    while command != 4 {
+        print(menu)
+        command = getAnswerInt(for: "Escolha uma opção do menu")
+        //O que é um switch
+        switch command {
+        case 1:
+            createExercise()
+        case 2:
+            printCurrentExercise()
+        case 3:
+            allExercises()
+        case 4:
+            command = 4
+        default:
+            command = 99
+        }
     }
 }
+
