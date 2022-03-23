@@ -1,59 +1,36 @@
-//
-//  luciana.swift
-//  main
-//
-//  Created by Luciana Adrião on 08/03/22.
-//
-
 import Foundation
-
-   
-
-
-
-
-
 
 class Luciana{
 
     
-    func dolar(){
+    func dolar() -> Double{
         
         let runLoop = CFRunLoopGetCurrent()
+        var usdBuy = 0.0
         let url = URL(string: "https://api.hgbrasil.com/finance")!
-        
-
         
         let task = URLSession.shared.dataTask(with: url){ (data, response, error) in
             if let data = data {
                 do{
                     let response = try JSONDecoder().decode(Response.self, from: data)
-                    let usdBuy = response.results.currencies.usd.buy
-                    if let usdSell = response.results.currencies.usd.sell {
-                        print(type(of: usdBuy))
-                        print(usdSell)
-                        
-                    } else {
-                        print("sell price is nil")
-                    }
+                    usdBuy = response.results.currencies.usd.buy
+                    CFRunLoopStop(runLoop)
                     
-                    while readLine() != "e" {
-                        
-                    }
-                    
-                    exit(EXIT_SUCCESS)
+//                    while readLine() != "e" {
+//
+//                    }
+//
+//                    exit(EXIT_SUCCESS)
                     
                     
                 }catch {
                     print(error)
                 }
             }
-            
         }
         task.resume()
         CFRunLoopRun()
-        print("Rodou..quem diria.")
-
+        return usdBuy
     }
     
     func app(){
@@ -62,20 +39,23 @@ class Luciana{
 //        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
+        print("Insira o valor em Reais para ser convertido: ")
+        
+        
         let entradaDouble = Double(readLine(strippingNewline: true)!)
-
-        print(entradaDouble!)
+        print("Entrada inserida foi: \(entradaDouble!)")
 
 
 //        Todos os valores em USD
-        var valorDolar = 5.0
+        let valorDolar = dolar()
         let conversaoPUsd = entradaDouble! / valorDolar
         let taxaVariavel = conversaoPUsd * 0.064
         let taxaFixa = 0.60
         let valorFinalUsd = conversaoPUsd + taxaFixa + taxaVariavel
+        
+        
 
         print(String(format: "%.2f", valorFinalUsd))
-
 //        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     }
     

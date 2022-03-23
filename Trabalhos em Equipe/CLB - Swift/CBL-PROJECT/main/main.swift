@@ -7,6 +7,9 @@
 
 import Foundation
 
+let luciana = Luciana()
+
+
 let cicero = Cicero()
 
 print("Menu")
@@ -20,18 +23,19 @@ case "1":
     cicero.app()
 case "2":
     print("Tales app")
-    
+
 case "3":
     print("Luciana app")
+    luciana.app()
 
 case "4":
     print("Jamile app")
-    
+
 case "5":
     print("Hanah app")
-    
+
 default:
     print("Digite uma das opçoes acima!")
-    
+
 }
 
