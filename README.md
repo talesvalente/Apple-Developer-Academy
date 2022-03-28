@@ -49,22 +49,17 @@ To deploy this project just download and exec the content below:
  - [CBL-PROJECT](https://github.com/talesvalente/Apple-Developer-Academy/raw/cbl-valente/Trabalhos%20em%20Equipe/CLB%20-%20Swift/CBL-PROJECT/exec/CBL-PROJECT)
 
 ## Demo
-
-Insert gif or link to demo
+![Demo](https://j.gifs.com/OgXrkR.gif)
 
 
 ## FAQ
 
-#### Question 1
+#### “CBL-PROJECT” não pode ser aberto porque procede de um desenvolvedor não identificado.
+ - [Como abrir aplicativos de desenvolvedores desconhecidos ](https://support.apple.com/pt-br/guide/mac-help/mh40616/mac)
 
-Answer 1
-
-#### Question 2
-
-Answer 2
 
 
 ## Feedback, Support & Contributing
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, need support or want to contribute please reach out to us at development@kantobyte.com.br
 
