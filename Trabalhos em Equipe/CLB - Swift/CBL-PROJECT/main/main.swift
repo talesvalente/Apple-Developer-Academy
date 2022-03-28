@@ -26,7 +26,7 @@ switch opcao{
 
     case "4":
         print("Jamile app")
-        Jamile()
+        Gym().runApp()
     case "5":
         print("Hanah app")
         
