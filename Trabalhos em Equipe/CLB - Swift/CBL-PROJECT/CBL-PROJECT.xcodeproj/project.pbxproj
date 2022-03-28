@@ -12,6 +12,7 @@
 		85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271827D78A0E00F2F9F2 /* valente.swift */; };
 		85F2271D27D7A23300F2F9F2 /* jamile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271C27D7A23300F2F9F2 /* jamile.swift */; };
 		85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271F27D7A25D00F2F9F2 /* hanah.swift */; };
+		DD05558B27F25183006B34B4 /* Arquivos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05558A27F25183006B34B4 /* Arquivos.swift */; };
 		DDB7287D27D7866800771A33 /* cicero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7287C27D7866800771A33 /* cicero.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		85F2271827D78A0E00F2F9F2 /* valente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valente.swift; sourceTree = "<group>"; };
 		85F2271C27D7A23300F2F9F2 /* jamile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamile.swift; sourceTree = "<group>"; };
 		85F2271F27D7A25D00F2F9F2 /* hanah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanah.swift; sourceTree = "<group>"; };
+		DD05558A27F25183006B34B4 /* Arquivos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arquivos.swift; sourceTree = "<group>"; };
 		DDB7287C27D7866800771A33 /* cicero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cicero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 		DDB7287B27D7865D00771A33 /* CICERO */ = {
 			isa = PBXGroup;
 			children = (
+				DD05558A27F25183006B34B4 /* Arquivos.swift */,
 				DDB7287C27D7866800771A33 /* cicero.swift */,
 			);
 			path = CICERO;
@@ -188,6 +191,7 @@
 				85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */,
 				7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */,
 				851EE69B27D7819900664A06 /* main.swift in Sources */,
+				DD05558B27F25183006B34B4 /* Arquivos.swift in Sources */,
 				85F2271927D78A0E00F2F9F2 /* valente.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
