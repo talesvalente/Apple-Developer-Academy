@@ -7,6 +7,18 @@
 
 import Foundation
 
+func iHold() {
+    print ("Pressione [ENTER] para continuar ou digite [s] para sair: ", terminator: "")
+    input = readLine()
+    if (input == "s") {
+        input = "sair"
+        myWhile = false
+    }
+    else {
+        input = ""
+    }
+}
+
 func iDebug(_ code: Int) {
     
     var stringArgs: String = ""

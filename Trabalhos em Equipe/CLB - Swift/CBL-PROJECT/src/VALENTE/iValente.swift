@@ -15,8 +15,9 @@
 import Foundation
 
 func iValente() {
-    print("\n\n")
-    print("Bem-vindo ao programa básico")
+    print("\n[OPÇÃO: 2 - SimuleAí]")
+    print("Seja bem-vindo ao SimuleÁi! ")
+    print("Saiba em tempo real quem oferece as melhores taxas do mercado para você e seu negócio e dê adeus ao desperdício de dinheiro!")
     
     while (true) {
         print ("\nInforme o valor que você deseja receber: ", terminator: "")
@@ -31,7 +32,7 @@ func iValente() {
     }
 
     while(true) {
-        print ("\nInforme a bandeira do cartão (1 - Elo / 2 - Visa & Master / 3 - Hiper & Hipercard): ", terminator: "")
+        print ("\nInforme a bandeira do cartão (1 - Elo | 2 - Visa & Master | 3 - Hiper & Hipercard): ", terminator: "")
         let input = readLine()
         bandeiraCartao = Int(input!)
         
@@ -57,7 +58,7 @@ func iValente() {
         } else if (bandeiraCartao == 3 && tipoCartao == 1) {
             iWarning(4);
             tipoCartao = 2;
-            readLine();
+            _ = readLine();
             break;
         } else {
                 if (tipoCartao == 1) { operacao = "Débito"}

@@ -34,6 +34,7 @@
 		7E30754D27D787CA00FC1CCA /* luciana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luciana.swift; sourceTree = "<group>"; };
 		851EE69727D7819900664A06 /* CBL-PROJECT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CBL-PROJECT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851EE69A27D7819900664A06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8555F3F627F21B2000334D02 /* exec */ = {isa = PBXFileReference; lastKnownFileType = folder; path = exec; sourceTree = "<group>"; };
 		85ADDA7C27E3A6F800E34B9D /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		85ADDA8027E3B92400E34B9D /* globalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVars.swift; sourceTree = "<group>"; };
 		85F2271827D78A0E00F2F9F2 /* iValente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iValente.swift; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		851EE68E27D7819900664A06 = {
 			isa = PBXGroup;
 			children = (
+				8555F3F627F21B2000334D02 /* exec */,
 				DDB7287A27D7864100771A33 /* src */,
 				851EE69927D7819900664A06 /* main */,
 				851EE69827D7819900664A06 /* Products */,
@@ -172,7 +174,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					851EE69627D7819900664A06 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -337,6 +339,7 @@
 		851EE69F27D7819900664A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -346,6 +349,7 @@
 		851EE6A027D7819900664A06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
