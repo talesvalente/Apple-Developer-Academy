@@ -7,3 +7,4 @@
   <img src="https://www.iconsdb.com/icons/preview/silver/apple-xxl.png"><br><br>
   <i>Acesso restrito as equipes da academia de desenvolvedores da Apple (A.D.A / IFCE)</i><br>
 </p>
+teste
