@@ -1,3 +1,7 @@
+
+![Logo](https://kantobyte.com.br/arquivos/Imagens/KB2021.png)
+
+
 # SimuleAí
 
 Quer agradar seu cliente e ainda deixar de perder uma graninha extra? Então pare de perder tempo e SimuleAí !
@@ -6,10 +10,12 @@ Quer agradar seu cliente e ainda deixar de perder uma graninha extra? Então par
 Este aplicativo faz uso de bibliotecas e conteúdos de terceiros:
 
  - [Kantobyte! Soluções e Tecnologia © Todos os direitos reservados](https://kantobyte.com.br)
- - [GIT DA EQUIPE - LUCIANA](https://kantobyte.com.br)
- - [GIT DA EQUIPE - HANNAH](https://kantobyte.com.br)
- - [GIT DA EQUIPE - CICERO](https://kantobyte.com.br)
- - [GIT DA EQUIPE - JAMILE](https://kantobyte.com.br)
+ - [CBL-CICERO  | @ciceronascimento](https://github.com/talesvalente/Apple-Developer-Academy/tree/CBLCiceroSwift)
+ - [CBL-HANNAH  | @hanahsantana6](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-hanah)
+ - [CBL-LUCIANA | @ivasantos](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-luciana)
+ - [CBL-JAMILE  | @jamcastroo](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-jamile)
+ - [CBL-VALENTE | @talesvalente](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-valente)
+
 
  REGRAS DE UTILIZAÇÃO / RESPONSABILIDADES DO PROPRIETARIO / MONETIZACAO
 
@@ -18,32 +24,36 @@ Este aplicativo faz uso de bibliotecas e conteúdos de terceiros:
 - [@talesvalente](https://www.github.com/talesvalente)
 
 
-## Contributing
+## Documentation
 
-Contributions are always welcome!
+[CBL-VALENTE](https://www.notion.so/CBL-Simulador-de-Custos-2d3dbd74fd7a41579d683f35ecc1828a)
 
-See `contributing.md` for ways to get started.
+[Swift-book](https://docs.swift.org/swift-book/)
 
-Please adhere to this project's `code of conduct`.
+## Unlocked Features (v1.0.0)
+- Funcional apenas com as seguintes administradoras: InfinitePay;
+- Calculadora precisa para funções débito e crédito (a vista ou parcelado);
+- Bandeiras aceitas : Mastercard, Visa, Hiper, Hipercard e Elo;
+- Compatível com todas as versões macOS.
+
+## Locked Features (visible in future release)
+- Acesso instantaneo às taxas disponibilizadas pelas intermediárias na web;
+- Acesso instantaneo aos cartões aceitos pelas intermediárias na web;
+- Exibir a melhor opção de escolha para consolidação de compra ou venda de produtos ou serviços.
+
+
+## Deployment
+
+To deploy this project do a Harlem Shake 
+
+```bash
+  Double click at `cbl-swift.exec`
+```
 
 
 ## Demo
 
 Insert gif or link to demo
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
-## Documentation
-
-[Documentation](https://linktodocumentation)
 
 
 ## FAQ
@@ -57,31 +67,7 @@ Answer 1
 Answer 2
 
 
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
-## Feedback
+## Feedback, Support & Contributing
 
 If you have any feedback, please reach out to us at fake@fake.com
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
-## Support
-
-For support, email fake@fake.com or join our Slack channel.
-
-
-## Used By
-
-This project is used by the following companies:
-
-- Company 1
-- Company 2
 
