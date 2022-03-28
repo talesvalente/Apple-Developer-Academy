@@ -17,7 +17,10 @@ Este aplicativo faz uso de bibliotecas e conteúdos de terceiros:
  - [CBL-VALENTE | @talesvalente](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-valente)
 
 
- REGRAS DE UTILIZAÇÃO / RESPONSABILIDADES DO PROPRIETARIO / MONETIZACAO
+##### “As informações disponibilizadas nesta ferramenta, doravante denominada SimuleAí não configuram um relatório de análise ou qualquer tipo de recomendação e foram obtidas a partir de fontes públicas disponibilizadas pelas administradoras e intermediárias financeiras na web. Valores passados não representa garantia de resultados futuros e apesar do cuidado na coleta e manuseio das informações, elas podem sofrer auterações sem aviso prévio e surtirem efeitos mais rápidos do que nós conseguimos nos atualizar. As informações são coletadas através de APIS e rotinas atomáticas pelo próprio aplicativo e sua conexão com a internet é fundamental para seu devido funcionamento e podem haver divergências pontuais e atraso em determinadas atualizações. O SimuneAí, seus sócios, administradores, representantes legais e funcionários não garantem, no que diz respeito as taxas publicas globais publicadas pelas intermediárias, sua exatidão, atualização, precisão, adequação, integridade ou veracidade, tampouco se responsabilizam pela publicação acidental de dados incorretos.
+
+##### É proibida a reprodução total ou parcial de textos, fotos, ilustrações ou qualquer outro conteúdo deste site por qualquer meio sem a prévia autorização de seu autor/criador ou do administrador, conforme LEI Nº 9.610, de 19 de fevereiro de 1998.”
+
 
 ## Authors
 
