@@ -44,12 +44,9 @@ Este aplicativo faz uso de bibliotecas e conteúdos de terceiros:
 
 ## Deployment
 
-To deploy this project do a Harlem Shake 
+To deploy this project just download and exec the content below:
 
-```bash
-  Double click at `cbl-swift.exec`
-```
-
+ - [CBL-PROJECT](https://github.com/talesvalente/Apple-Developer-Academy/raw/cbl-valente/Trabalhos%20em%20Equipe/CLB%20-%20Swift/CBL-PROJECT/exec/CBL-PROJECT)
 
 ## Demo
 
