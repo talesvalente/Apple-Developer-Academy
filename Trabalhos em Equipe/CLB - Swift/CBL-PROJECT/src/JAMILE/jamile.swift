@@ -167,7 +167,7 @@ class Gym {
             workout()
         }
     }
-    print("....Saindo do programa")
+    print("...Saindo do programa")
 }
 }
 
