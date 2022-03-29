@@ -13,41 +13,44 @@ var media:Float = 0
 
 var loop = true
 
-
-print("       - Welcome to the Calculadora de Notas do IF! -\n")
-
-while(loop){
-    print("""
-  ------------------------- x Menu x ----------------------------
-  | 1 - Qual minha média        | 2 - Quanto devo tirar na N2   |
-  | 0 - Sair da aplicação       |                               |
-  ----------------------------- x -------------------------------\n
-  """)
+func calculadora(){
     
-    print("Insira o número correspondente a função que deseja utilizar: ",terminator:"")
-    
-    let option = readLine()
-    print("")
-    switch option{
-    case "1":
-        print("Insira a(s) nota(s) da N1\n")
-        recebeNotas()
-        n1 = nota
-        print("Insira a(s) nota(s) da N2\n")
-        recebeNotas()
-        n2 = nota
-        media(n1: n1, n2: n2)
-    case "2":
-        print("Insira a(s) nota(s) da N1\n")
-        recebeNotas()
-        n1 = nota
-        quantoN2(n1: n1)
-    case "0":
-        loop = false
-    default:
-        print("Você não selecionou uma opção válida.\n")
+    print("       - Welcome to the Calculadora de Notas do IF! -\n")
+
+    while(loop){
+        print("""
+      ------------------------- x Menu x ----------------------------
+      | 1 - Qual minha média        | 2 - Quanto devo tirar na N2   |
+      | 0 - Sair da aplicação       |                               |
+      ----------------------------- x -------------------------------\n
+      """)
+        
+        print("Insira o número correspondente a função que deseja utilizar: ",terminator:"")
+        
+        let option = readLine()
+        print("")
+        switch option{
+        case "1":
+            print("Insira a(s) nota(s) da N1\n")
+            recebeNotas()
+            n1 = nota
+            print("Insira a(s) nota(s) da N2\n")
+            recebeNotas()
+            n2 = nota
+            media(n1: n1, n2: n2)
+        case "2":
+            print("Insira a(s) nota(s) da N1\n")
+            recebeNotas()
+            n1 = nota
+            quantoN2(n1: n1)
+        case "0":
+            loop = false
+        default:
+            print("Você não selecionou uma opção válida.\n")
+        }
+        execucao()
     }
-    execucao()
+
 }
 
 func recebeNotas(){

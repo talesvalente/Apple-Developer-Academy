@@ -8,13 +8,13 @@
 import Foundation
 
 let cicero = Cicero()
-let hanah = Hanah()
+//let hanah = Hanah()
 
 //print("Menu")
 
-//print("Ola, selecione um dos programas a seguir:\n1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah")
+print("Ola, selecione um dos programas a seguir:\n1 - Cicero\n2 - Tales\n3 - Luciana\n4 - Jamile\n5 - Hanah")
 
-let opcao = "5"//readLine()
+let opcao = readLine()
 
 switch opcao{
 case "1":
@@ -29,8 +29,8 @@ case "4":
     print("Jamile app")
     
 case "5":
-    //print("Hanah app")
-    hanah.app()
+    print("Hanah app")
+    calculadora()
     
 default:
     print("Digite uma das opçoes acima!")
