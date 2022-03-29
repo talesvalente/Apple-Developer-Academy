@@ -12,6 +12,7 @@
 		85A6BE7827EB57C60003197A /* conversor in Frameworks */ = {isa = PBXBuildFile; productRef = 85A6BE7727EB57C60003197A /* conversor */; };
 		85ADDA7D27E3A6F800E34B9D /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ADDA7C27E3A6F800E34B9D /* functions.swift */; };
 		85ADDA8127E3B92400E34B9D /* globalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ADDA8027E3B92400E34B9D /* globalVars.swift */; };
+		85B3103527F32B560087C817 /* Arquivos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3103427F32B560087C817 /* Arquivos.swift */; };
 		85F2271927D78A0E00F2F9F2 /* iValente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271827D78A0E00F2F9F2 /* iValente.swift */; };
 		85F2271D27D7A23300F2F9F2 /* jamile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271C27D7A23300F2F9F2 /* jamile.swift */; };
 		85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F2271F27D7A25D00F2F9F2 /* hanah.swift */; };
@@ -37,6 +38,7 @@
 		8555F3F627F21B2000334D02 /* exec */ = {isa = PBXFileReference; lastKnownFileType = folder; path = exec; sourceTree = "<group>"; };
 		85ADDA7C27E3A6F800E34B9D /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		85ADDA8027E3B92400E34B9D /* globalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVars.swift; sourceTree = "<group>"; };
+		85B3103427F32B560087C817 /* Arquivos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arquivos.swift; sourceTree = "<group>"; };
 		85F2271827D78A0E00F2F9F2 /* iValente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iValente.swift; sourceTree = "<group>"; };
 		85F2271C27D7A23300F2F9F2 /* jamile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamile.swift; sourceTree = "<group>"; };
 		85F2271F27D7A25D00F2F9F2 /* hanah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanah.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				DDB7287C27D7866800771A33 /* cicero.swift */,
+				85B3103427F32B560087C817 /* Arquivos.swift */,
 			);
 			path = CICERO;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				85F2272027D7A25D00F2F9F2 /* hanah.swift in Sources */,
 				85ADDA8127E3B92400E34B9D /* globalVars.swift in Sources */,
 				7E30754E27D787CA00FC1CCA /* luciana.swift in Sources */,
+				85B3103527F32B560087C817 /* Arquivos.swift in Sources */,
 				851EE69B27D7819900664A06 /* main.swift in Sources */,
 				85F2271927D78A0E00F2F9F2 /* iValente.swift in Sources */,
 			);
