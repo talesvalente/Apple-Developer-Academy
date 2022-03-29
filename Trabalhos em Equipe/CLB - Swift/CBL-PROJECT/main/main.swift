@@ -28,8 +28,8 @@ while(myWhile) {
     print("✅1 - Organizer (Por: Cicero Sobrenome)")
     print("✅2 - SimuleAí  (Por: Tales Valente)")
     print("❌3 - NomeDoApp (Por: Hannah Santana)")
-    print("❌4 - NomeDoApp (Por: Jamile Sobrenome)")
-    print("✅5 - NomeDoApp (Por: Luciana Sobrenome")
+    print("✅4 - Gym Visuaizer (Por: Jamile Castro)")
+    print("✅5 - TaxCalc (Por: Luciana Sobrenome")
     print("")
 
     if (input == "") {
@@ -51,7 +51,8 @@ while(myWhile) {
 
         break
         case "4":
-            print("Jamile app")
+            Gym().runApp()
+            iHold()
         break
         case "5":
             appLuciana.main()
