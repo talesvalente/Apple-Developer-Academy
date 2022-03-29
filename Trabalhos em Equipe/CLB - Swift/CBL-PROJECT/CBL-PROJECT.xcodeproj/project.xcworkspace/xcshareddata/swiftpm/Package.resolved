@@ -1,16 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "conversor",
-        "repositoryURL": "https://github.com/lvasantos/taxCalc.git",
-        "state": {
-          "branch": "main",
-          "revision": "c24a9409cb897fd9e8c525b834e4f982438f536c",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "swiftsoup",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scinfu/SwiftSoup.git",
+      "state" : {
+        "revision" : "11da8c685ddde2d519fad04a7daf8485bbbc773e",
+        "version" : "1.7.5"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "taxcalc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lvasantos/taxCalc.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "606666bc8cc6d847963a7bdbe8358d0d17e2fe2a"
+      }
+    }
+  ],
+  "version" : 2
 }

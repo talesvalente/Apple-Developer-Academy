@@ -15,6 +15,7 @@ func iHold() {
         myWhile = false
     }
     else {
+        print("\n\n\n")
         input = ""
     }
 }

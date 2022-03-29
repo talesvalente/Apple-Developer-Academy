@@ -10,50 +10,60 @@ import conversor
 
 //Variaveis de inicialização do integrador
 let appLuciana = App()
+let cicero     = Cicero()
+
+//Variaveis de Persistencia do integrador
 var myWhile = true
 
 
 //MENU PRINCIPAL : EXECUÇÃO
 while(myWhile) {
+    print("\n")
     print("[INTEGRADOR CBL-CHALLENGE SWIFT]")
     print("🧑🏽‍💻 👨🏽‍💻 👩🏻‍💻 👩🏽‍💻 👩🏾‍💻 🖥 📱")
     print("Olá, '<userName$>'!")
     print("Seja bem-vindo(a) ao integrador de aplicativos swift.")
     print("Selecione um número abaixo para executar o programa desejado.\n")
     print("➡️[LISTA DE APLICATIVOS DISPONIVEIS]⬅️")
-    print("❌1 - NomeDoApp (Por: Cicero Sobrenome)")
+    print("✅1 - Organizer (Por: Cicero Sobrenome)")
     print("✅2 - SimuleAí  (Por: Tales Valente)")
     print("❌3 - NomeDoApp (Por: Hannah Santana)")
-    print("❌4 - NomeDoApp (Por: Jamile Sobrenome)")
-    print("❌5 - NomeDoApp (Por: Luciana Sobrenome")
+    print("✅4 - Gym Visuaizer (Por: Jamile Castro)")
+    print("✅5 - TaxCalc (Por: Luciana Sobrenome")
     print("")
-    print("Programa Desejado: ", terminator: "")
-    input = readLine()
+
+    if (input == "") {
+        print("Programa Desejado: ", terminator: "")
+        input = readLine()
+        
+    }
     
     switch input{
         case "1":
-            print("Cicero")
+            cicero.app()
+            iHold()
         break
         case "2":
             iValente()
             iHold()
         break
         case "3":
-            print("Luciana app")
-            appLuciana.main()
+
         break
         case "4":
-            print("Jamile app")
+            Gym().runApp()
+            iHold()
         break
         case "5":
-            print("Hanah app")
+            appLuciana.main()
+            iHold()
         break
         case "sair":
             
         break;
         default:
-            print("Digite uma das opçoes acima!")
-            print("Programa Desejado: ", terminator: "")
-            input = readLine()
+        print("Opção Invalida. Pressione enter para tentar novamente... ", terminator: "")
+        _ = readLine()
+        input = ""
     }
 }
