@@ -29,7 +29,7 @@ while(myWhile) {
     print("✅2 - SimuleAí  (Por: Tales Valente)")
     print("❌3 - NomeDoApp (Por: Hannah Santana)")
     print("✅4 - Gym Visuaizer (Por: Jamile Castro)")
-    print("✅5 - TaxCalc (Por: Luciana Sobrenome")
+    print("✅5 - TaxCalc (Por: Luciana Sobrenome)")
     print("")
 
     if (input == "") {
