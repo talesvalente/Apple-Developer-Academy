@@ -10,11 +10,7 @@ Repositório global para manutenção e armazenamento de conteúdo produzido pel
 ## Apoio
 - Instituto Federal de Educação, Ciência e Tecnlogia do Ceará
 
-![Logo](https://kantobyte.com.br/arquivos/Imagens/apple-xxl.png)
-
-![Logo](https://fcpc.ufc.br/wp-content/themes/fcpc/assets/images/logo_light.png)
-
-![Logo](https://ifce.edu.br/prpi/documentos-1/semic/2018/logo-vertical-ifce.png/@@images/56f4d129-a7dc-49c6-a533-b2756eef5dca.png)
+![Logo](https://kantobyte.com.br/arquivos/Imagens/ADAHUB.png)
 
 ## Acknowledgements
 Este repositório faz uso de bibliotecas e conteúdos de terceiros.
