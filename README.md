@@ -1,4 +1,5 @@
 
+PREVIEW DO README OFICIAL - AINDA EM CONSTRUCAO
 # Apple Developer Academy - HUB
 
 Repositório global para manutenção e armazenamento de conteúdo produzido pela Academia de Desenvolvedores da Apple - Unidade Fortaleza. 
@@ -9,6 +10,17 @@ Repositório global para manutenção e armazenamento de conteúdo produzido pel
 
 ## Apoio
 - Instituto Federal de Educação, Ciência e Tecnlogia do Ceará
+
+<p align="center">
+  <b>Apple Developer Academy - Links:</b><br>
+  <b>Apple Developer Academy</b><br>
+  <a href="#">Google Drive</a> |
+  <a href="#">Trello</a> |
+  <a href="#">Discord</a>
+  <br><br>
+  <img src="https://kantobyte.com.br/arquivos/Imagens/ADAHUB.png"><br><br>
+  <i>Acesso restrito as equipes da academia de desenvolvedores da Apple (A.D.A / IFCE)</i><br>
+</p>
 
 ![Logo](https://kantobyte.com.br/arquivos/Imagens/ADAHUB.png)
 
