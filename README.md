@@ -6,23 +6,15 @@ Repositório global para manutenção e armazenamento de conteúdo produzido pel
 
 ## Patrocionador Oficial
 - FCPC - Fundação Cearense de Pesquisa e Cultura
-- Apple Inc.
+- Maçã Inc.
 
 ## Apoio
 - Instituto Federal de Educação, Ciência e Tecnlogia do Ceará
 
 <p align="center">
-  <b>Apple Developer Academy - Links:</b><br>
-  <b>Apple Developer Academy</b><br>
-  <a href="#">Google Drive</a> |
-  <a href="#">Trello</a> |
-  <a href="#">Discord</a>
   <br><br>
   <img src="https://kantobyte.com.br/arquivos/Imagens/ADAHUB.png"><br><br>
-  <i>Acesso restrito as equipes da academia de desenvolvedores da Apple (A.D.A / IFCE)</i><br>
 </p>
-
-![Logo](https://kantobyte.com.br/arquivos/Imagens/ADAHUB.png)
 
 ## Acknowledgements
 Este repositório faz uso de bibliotecas e conteúdos de terceiros.
