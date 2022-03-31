@@ -50,13 +50,6 @@ Este repositório faz uso de bibliotecas e conteúdos de terceiros.
  - [TaxCalc | @ivasantos](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-luciana)
  - [Gym Visualizer  | @jamcastroo](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-jamile)
 
-
-    print("✅1 - Organizer (Por: Cicero Sobrenome)")
-    print("✅2 - SimuleAí  (Por: Tales Valente)")
-    print("✅3 - Calculator (Por: Hannah Santana)")
-    print("✅4 - Gym Visuaizer (Por: Jamile Castro)")
-    print("✅5 - TaxCalc (Por: Luciana Sobrenome)")
-
 ## Deployment
 
 To deploy this project run
