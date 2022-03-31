@@ -35,17 +35,27 @@ Este repositório faz uso de bibliotecas e conteúdos de terceiros.
 
 ## Contributing
 
- - [CBL-CICERO  | @ciceronascimento](https://github.com/talesvalente/Apple-Developer-Academy/tree/CBLCiceroSwift)
- - [CBL-HANNAH  | @hanahsantana6](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-hanah)
- - [CBL-LUCIANA | @ivasantos](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-luciana)
- - [CBL-JAMILE  | @jamcastroo](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-jamile)
+ - [@ciceronascimento](https://github.com/ciceronascimento/ciceronascimento)
+ - [@hanahsantana6](https://github.com/hanahsantana6/hanahsantana6)
+ - [@ivasantos](https://github.com/lvasantos)
+ - [@jamcastroo](https://github.com/jamcastroo)
  - [Kantobyte! Soluções e Tecnologia © Todos os direitos reservados](https://kantobyte.com.br)
 
 
-## Demo
+## Branchs & Indivudal Releases
 
-Insert gif or link to demo
+ - [Organizer  | @ciceronascimento](https://github.com/talesvalente/Apple-Developer-Academy/tree/CBLCiceroSwift)
+ - [SimuleAí  | @talesvalente](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-valente)
+ - [Calculator | Hanahsantana6](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-hanah)
+ - [TaxCalc | @ivasantos](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-luciana)
+ - [Gym Visualizer  | @jamcastroo](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-jamile)
 
+
+    print("✅1 - Organizer (Por: Cicero Sobrenome)")
+    print("✅2 - SimuleAí  (Por: Tales Valente)")
+    print("✅3 - Calculator (Por: Hannah Santana)")
+    print("✅4 - Gym Visuaizer (Por: Jamile Castro)")
+    print("✅5 - TaxCalc (Por: Luciana Sobrenome)")
 
 ## Deployment
 
