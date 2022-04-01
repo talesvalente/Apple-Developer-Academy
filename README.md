@@ -1,5 +1,4 @@
 
-PREVIEW DO README OFICIAL - AINDA EM CONSTRUCAO
 # Apple Developer Academy - HUB
 
 Repositório global para manutenção e armazenamento de conteúdo produzido pela Academia de Desenvolvedores da Apple - Unidade Fortaleza. 
@@ -21,17 +20,13 @@ Este repositório faz uso de bibliotecas e conteúdos de terceiros.
 
 ##### “As informações disponibilizadas neste repositório, doravante denominada ADAHUB, são de uso exclusivo deste projeto e de seus contribuintes, não podendo, por tanto, serem copiadas, modificadas e/ou distribuidas sob quaisquer formas sem previa anuencia das partes. A apropropriação deste repositório ou de seu conteudo intelecutal constitui crime conforme as determinações previstas no Código Penal Art. 184 e LEI Nº 9.279, DE 14 DE MAIO DE 1996.
 
-
 ##### É proibida a reprodução total ou parcial de textos, fotos, ilustrações ou qualquer outro conteúdo deste domínio por qualquer meio sem a prévia autorização de seu autor/criador ou do administrador, conforme LEI Nº 9.610, de 19 de fevereiro de 1998.”
-
 
 ##### Se interessou por alguma ideia e quer produzi-la comercialmente? Contante-nos através das ISSUES no github e um dos nossos colaboradores atenderá você rapidamente.
 
 ## Authors
 
 - [@talesvalente](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-valente)
-
-
 
 ## Contributing
 
@@ -41,7 +36,6 @@ Este repositório faz uso de bibliotecas e conteúdos de terceiros.
  - [@jamcastroo](https://github.com/jamcastroo)
  - [Kantobyte! Soluções e Tecnologia © Todos os direitos reservados](https://kantobyte.com.br)
 
-
 ## Branchs & Indivudal Releases
 
  - [Organizer  | @ciceronascimento](https://github.com/talesvalente/Apple-Developer-Academy/tree/CBLCiceroSwift)
@@ -50,11 +44,9 @@ Este repositório faz uso de bibliotecas e conteúdos de terceiros.
  - [TaxCalc | @ivasantos](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-luciana)
  - [Gym Visualizer  | @jamcastroo](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-jamile)
  
-
 ## Documentation
 
 [Documentation](https://linktodocumentation)
-
 
 ## FAQ
 
@@ -70,7 +62,6 @@ Este repositório detem um full-merge funcional de todas as branchs dos colabora
 
 O ultimo challenge pode ser visualizado através das branchs individuais ou no seguinte caminho: [CBL-PROJECT](https://github.com/talesvalente/Apple-Developer-Academy/tree/main/Trabalhos%20em%20Equipe/CLB%20-%20Swift/CBL-PROJECT)
 
-
 ## Features
 
 - SimuleAí: Descubra em tempo real qual empresa ofereçe as melhores taxas de cartões para seu negócio
@@ -78,7 +69,6 @@ O ultimo challenge pode ser visualizado através das branchs individuais ou no s
 - Gym Visualiser: Organize seu treino e dê adeus ao papelzinho
 - Organizer: Organize seus arquivos de forma rapida e prática com apenas 2 clicks
 - Calculator: <<empty.args>>
-
 
 ## Support & Feedback
 
