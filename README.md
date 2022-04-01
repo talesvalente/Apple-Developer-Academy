@@ -49,15 +49,7 @@ Este repositório faz uso de bibliotecas e conteúdos de terceiros.
  - [Calculator | Hanahsantana6](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-hanah)
  - [TaxCalc | @ivasantos](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-luciana)
  - [Gym Visualizer  | @jamcastroo](https://github.com/talesvalente/Apple-Developer-Academy/tree/cbl-jamile)
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
+ 
 
 ## Documentation
 
@@ -66,13 +58,17 @@ To deploy this project run
 
 ## FAQ
 
-#### Question 1
+#### Qual a finalidade deste repositório?
 
-Answer 1
+Armazenar e distribuir todo o conteúdo praticado e desenvolvido em laborótirio com o intúito de auxiliar os membros participantes da ADA Fortaleza
 
-#### Question 2
+#### Como este repositório funciona?
 
-Answer 2
+Este repositório detem um full-merge funcional de todas as branchs dos colaboradores ativos no momento. Para vizualizar o conteúdo, basta navegar nas pastas disponiveis.
+
+#### Como faço pra visualizar o ultimo desafio cbl lançado pelo academy em 01/04/2022?
+
+O ultimo challenge pode ser visualizado através das branchs individuais ou no seguinte caminho: [CBL-PROJECT](https://github.com/talesvalente/Apple-Developer-Academy/tree/main/Trabalhos%20em%20Equipe/CLB%20-%20Swift/CBL-PROJECT)
 
 
 ## Features
