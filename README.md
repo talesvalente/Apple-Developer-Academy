@@ -58,45 +58,37 @@ Este repositório faz uso de bibliotecas e conteúdos de terceiros.
 
 ## FAQ
 
-#### Qual a finalidade deste repositório?
+#### 1. Qual a finalidade deste repositório?
 
 Armazenar e distribuir todo o conteúdo praticado e desenvolvido em laborótirio com o intúito de auxiliar os membros participantes da ADA Fortaleza
 
-#### Como este repositório funciona?
+#### 2. Como este repositório funciona?
 
 Este repositório detem um full-merge funcional de todas as branchs dos colaboradores ativos no momento. Para vizualizar o conteúdo, basta navegar nas pastas disponiveis.
 
-#### Como faço pra visualizar o ultimo desafio cbl lançado pelo academy em 01/04/2022?
+#### 3. Como faço pra visualizar o ultimo desafio cbl lançado pelo academy em 01/04/2022?
 
 O ultimo challenge pode ser visualizado através das branchs individuais ou no seguinte caminho: [CBL-PROJECT](https://github.com/talesvalente/Apple-Developer-Academy/tree/main/Trabalhos%20em%20Equipe/CLB%20-%20Swift/CBL-PROJECT)
 
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- SimuleAí: Descubra em tempo real qual empresa ofereçe as melhores taxas de cartões para seu negócio
+- TaxCalc: <<empty.args>>
+- Gym Visualiser: Organize seu treino e dê adeus ao papelzinho
+- Organizer: Organize seus arquivos de forma rapida e prática com apenas 2 clicks
+- Calculator: <<empty.args>>
 
 
-## Feedback
+## Support & Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+Você está precisando de ajuda ou gostaria de compartilhar sua opinão conosco? [Click aqui. Estamos esperando por você!](https://github.com/talesvalente/Apple-Developer-Academy/issues)
 
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherinempeterson.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-
-
-## 🛠 Skills
-Javascript, HTML, CSS...
-
-
-## Support
-
-For support, email fake@fake.com or join our Slack channel.
 
 
 ## Used By
